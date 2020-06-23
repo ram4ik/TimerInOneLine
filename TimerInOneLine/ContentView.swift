@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!").padding()
+        Text(Date().addingTimeInterval(600), style: .relative)
+            .font(.largeTitle)
     }
 }
 
